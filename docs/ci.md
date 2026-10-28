@@ -1,7 +1,7 @@
 # Infrastructure CI
 
 The workflow in `.github/workflows/infrastructure.yml` runs on pull requests to
-`main`, pushes to `main` and `feature/W1-22-ci`, and manual runs once the workflow
+any base branch, pushes to `main` and `feature/W1-22-ci`, and manual runs once the workflow
 is available on the default branch. It uses GitHub-hosted Ubuntu 24.04 runners.
 
 | Check | Coverage |

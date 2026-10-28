@@ -2,7 +2,6 @@ name: Infrastructure CI
 
 on:
   pull_request:
-    branches: [main]
   push:
     branches: [main, 'feature/W1-22-ci']
   workflow_dispatch:
